@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping
     public String hello(){
-        return "Hello from second version !!:)";
+        return "Hello from third version !!:)";
     }
 
     @GetMapping("/user")
