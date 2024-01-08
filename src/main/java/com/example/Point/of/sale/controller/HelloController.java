@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping
     public String hello(){
-        return "Hello from 10th version !!:)";
+        return "Hello from 11th version !!:)";
     }
 
     @GetMapping("/user")
